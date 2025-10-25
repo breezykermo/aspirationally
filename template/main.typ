@@ -1,5 +1,4 @@
-#import "../lib.typ": aspirationally
-// #import "@preview/aspirationally:0.1.0": aspirationally
+#import "@preview/aspirationally:0.1.0": aspirationally
 
 #let role = [Tenure Track Assistant Professor in Typographic Theory]
 #let department = [the Gutenberg School of Literary Arts]
@@ -7,8 +6,8 @@
 #show: aspirationally(
   name: [Laurenz Typesetter],
   title: [Cover Letter],
-  current_department: [Department of Literary Studies],
-  has_references: false,
+  current-department: [Department of Literary Studies],
+  has-references: false,
 )[
   Dear Search Committee,
 
